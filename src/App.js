@@ -13,6 +13,9 @@ function App() {
       <h1>Search For Recipes</h1>
       <Search /></>} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="*" element= {<>
+      <h1>Search For Recipes</h1>
+      <Search /></>} />
       </Routes>
     </BrowserRouter>
   );
